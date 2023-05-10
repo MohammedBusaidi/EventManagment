@@ -15,7 +15,7 @@ import lombok.Setter;
 public class Attendees {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    Long attendeesId;
+    Long id;
     String name;
     String email;
     Integer phone;

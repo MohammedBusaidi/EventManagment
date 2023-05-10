@@ -15,7 +15,6 @@ public class ReviewsServices {
 
         return reviewRepository.findAll();
     }
-
     public Reviews getReviewById(Long id) {
 
         return reviewRepository.findById(id).get();
